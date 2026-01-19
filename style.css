@@ -125,7 +125,7 @@ nav{
 
 .about-container{
     max-width: 1200px;
-    height: 500px;
+    height: 647px;
     margin: 50px auto 120px auto;
     display: flex;
     flex-direction: column;
@@ -143,19 +143,13 @@ nav{
     opacity: 0.8;
 
 }
-.line{
-    opacity: 0.1;
-    height: 2px;
-    border: 1px;
-    background: linear-gradient(rgba(255, 255, 255, 1));
-}
+
+
 .grid-about{
     width: 1200px;
-    height: 94px;
     border: 1px solid cyan;
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    margin-bottom: 120px;
     
 }
 .about-state, .banner-info>p{
@@ -224,6 +218,33 @@ nav{
     grid-column: 1/span 2;
 }
 
+/* Feature Epsode Design */
+
+
+.card-container{
+    border: 2px solid red;
+   
+    
+}
+.card-box{
+    max-width: 1200px;
+    margin: 0 auto;
+    border: 2px solid cyan;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+
+}
+.card-padding{
+    padding: 24px;
+}
+.card-container>h2{
+    font-weight: 700;
+    font-size: 48px;
+    margin-top: 30px;
+    margin-bottom: 25px;
+    display: flex;
+    justify-self: center;
+}
 
 
 
@@ -238,6 +259,7 @@ nav{
 
 
 @media screen and (max-width: 576px) {
+    
     .nav-button{
         display: none;
     }
@@ -256,12 +278,13 @@ nav{
 
 }
 .grid-about{
-    width: 100%;
+    max-width: 100%;
     display: grid;
     grid-template-columns: repeat(2,1fr);
     grid-template-rows: repeat(2,1fr);
 }
 .techwave-grid{
+    max-width: 100%;
     grid-template-columns: repeat(1,1fr);
 
 }
@@ -281,11 +304,15 @@ nav{
 .box-5{
     grid-column: auto;
 }
-
-
-
-
+.card-box{
+    width:100%;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
 }
+    
+}
+
+
     
 
 
