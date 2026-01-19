@@ -123,6 +123,50 @@ nav{
     color: #FFFFFF;
 }
 
+.about-container{
+    max-width: 1200px;
+    height: 647px;
+    margin: 50px auto 120px auto;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.about-container h2{
+    font-weight: 700;
+    font-size: 48px;
+    margin-bottom: 16px;
+}
+.about-container .about-p1{
+    text-align: center;
+    line-height: 30px;
+    opacity: 0.8;
+
+}
+.line{
+    opacity: 0.1;
+    height: 2px;
+    border: 1px;
+    background: linear-gradient(rgba(255, 255, 255, 1));
+}
+.about-state-container{
+    width: 1200px;
+    height: 94px;
+    border: 1px solid red;
+    justify-content: space-around;
+    
+}
+.about-state>h4{
+    font-weight: 900;
+    font-size: 48px;
+    background: #00FF88;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.about-state>p{
+    opacity: 0.8;
+}
 
 
 
