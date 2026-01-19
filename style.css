@@ -50,6 +50,7 @@ nav{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-image: url(./assets/hero-bg.png);;
 }
 .banner-info{
     border: 1px solid red;
@@ -77,11 +78,51 @@ nav{
     border: 1px solid red;
     background-image: url(./assets/hero-circle.png);
 }
-.banner-img>img{
+.banner-img>.banner-img1{
     position: absolute;
     top: 25%;
     left: 33%;
 }
+.new-btn{
+    background-color: #00FF88;
+    padding: 8px 16px;
+    border-radius: 1000px;
+    color: black;
+    font-weight: 600;
+    font-size: 18px;
+    position: absolute;
+    left: 68%;
+    top: 2%;
+}
+.flex{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.btn-container{
+    margin-top: 24px;
+    gap: 10px;
+}
+.banner-btn1{
+    font-weight: 600;
+    color: #FFFFFF;
+    padding: 12px 20px;
+    gap: 8px;
+    border-radius: 10000px;
+    background: linear-gradient(rgba(247, 233, 63, 1),rgba(251, 9, 180, 1)),rgba(145, 0, 248, 1);
+}
+.banner-btn2{
+    padding: 12px 20px;
+    gap: 8px;
+    border-radius: 10000px;
+    border-color: #00FF88;
+    background: #00FF88;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
 
 
 
