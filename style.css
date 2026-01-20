@@ -19,7 +19,7 @@ nav{
     justify-content: space-between;
     align-items: center;
 }
-.nav-left span{
+.nav-left span {
     background: linear-gradient(#F7E93F, #FB09B4, #9100F8);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
@@ -50,7 +50,8 @@ nav{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url(./assets/hero-bg.png);;
+    background-image: url(./assets/hero-bg.png);
+    background-position: center;
 }
 .banner-info{
     border: 1px solid red;
@@ -278,6 +279,59 @@ nav{
     width: 15px;
 }
 
+/* Footer-design */
+
+.footer{
+       background-image: url(./assets/footer-bg.png);
+       background-repeat: no-repeat;
+       background-position: center;
+       border: 1px solid red;
+       
+    
+
+    
+}
+.footer-container{
+    max-width: 1360px;
+
+    border: 1px solid red;
+    margin: 80px auto;
+}
+
+.footer-container>h2>span{
+     background: linear-gradient(#F7E93F, #FB09B4, #9100F8);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.footer-container>h2{
+    font-weight: 700;
+    font-size: 3rem;
+    /* margin-top: 50px; */
+     display: flex;
+    justify-content: center;
+    
+}
+.footer-grid-box{
+    border: 1px solid red;
+   
+    display: grid;
+    grid-template-columns: repeat(4, 150px);
+    justify-content: center;
+}
+.footer-grid-box>div{
+    display: flex;
+    gap: 10px;
+}
+.footer-copyright{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+    
+
+
 
 
 
@@ -352,6 +406,23 @@ nav{
     flex-direction: column;
    
 }
+.footer-container{
+    width: 100%;
+}
+.footer-container>h2{
+    text-align: center;
+}
+
+.footer-grid-box{
+    width: 67%;
+    margin: 0 auto;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    gap: 20px;
+}
+    
+
+
     
 }
 
