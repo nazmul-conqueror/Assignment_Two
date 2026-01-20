@@ -7,7 +7,7 @@
      font-family: "Inter", sans-serif;
 }
 body{
-    background-color: #412567;
+    background: rgba(26, 11, 46, 1);
     color: #FFFFFF;
 }
 
@@ -173,7 +173,6 @@ nav{
     max-width: 1200px;
     min-height: 600px;
     margin: 50px auto;
-    border: 2px solid red;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: repeat(3,1fr);
@@ -229,10 +228,15 @@ nav{
 .card-box{
     max-width: 1200px;
     margin: 0 auto;
-    border: 2px solid cyan;
+    gap: 20px;
     display: grid;
     grid-template-columns: repeat(3,1fr);
-
+    
+}
+.card1, .card2 ,.card3{
+     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+    border-radius: 40px;
+    background: rgba(53, 17, 101, 0.4);
 }
 .card-padding{
     padding: 24px;
@@ -245,6 +249,35 @@ nav{
     display: flex;
     justify-self: center;
 }
+
+.host-container{
+    
+}
+.host-header{
+    font-weight: 600;
+    font-size: 2rem;
+}
+.host-box{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 40px;
+    gap: 24px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+    border-radius: 40px;
+    background: rgba(53, 17, 101, 0.4);
+
+}
+.host-icon{
+    display: flex;
+    gap: 20px; 
+}
+.host-icon>img{
+    width: 15px;
+}
+
 
 
 
@@ -278,13 +311,14 @@ nav{
 
 }
 .grid-about{
-    max-width: 100%;
+    width: 100%;
     display: grid;
     grid-template-columns: repeat(2,1fr);
     grid-template-rows: repeat(2,1fr);
 }
 .techwave-grid{
-    max-width: 100%;
+    width: 90%;
+    gap: 15px;
     grid-template-columns: repeat(1,1fr);
 
 }
@@ -296,18 +330,27 @@ nav{
 }
 
 .box-3{
+    gap: 20px;
     grid-column: auto;
 }
 .box-4{
     grid-column: auto;
+    gap: 20px;
 }
 .box-5{
     grid-column: auto;
 }
 .card-box{
-    width:100%;
+    width:90%;
     display: grid;
     grid-template-columns: repeat(1,1fr);
+}
+
+.host-box{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+   
 }
     
 }
