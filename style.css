@@ -14,7 +14,6 @@ body{
 nav{
     max-width: 1200px;
     margin: 0 auto;
-    border: 1px solid red;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -44,7 +43,6 @@ nav{
 .banner{
     height: 760px;
     max-width: 1600px;
-    border: 1px solid red;
     margin-top: 24px;
     display: flex;
     flex-direction: column;
@@ -54,7 +52,6 @@ nav{
     background-position: center;
 }
 .banner-info{
-    border: 1px solid red;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -76,7 +73,6 @@ nav{
     position: relative;
     width: 350px;
     height: 350px;
-    border: 1px solid red;
     background-image: url(./assets/hero-circle.png);
 }
 .banner-img>.banner-img1{
@@ -148,7 +144,6 @@ nav{
 
 .grid-about{
     width: 1200px;
-    border: 1px solid cyan;
     display: grid;
     grid-template-columns: repeat(4,1fr);
     
@@ -220,12 +215,6 @@ nav{
 
 /* Feature Epsode Design */
 
-
-.card-container{
-    border: 2px solid red;
-   
-    
-}
 .card-box{
     max-width: 1200px;
     margin: 0 auto;
@@ -282,19 +271,15 @@ nav{
 /* Footer-design */
 
 .footer{
+    border: 1px solid rgba(128, 128, 128, 0);
        background-image: url(./assets/footer-bg.png);
        background-repeat: no-repeat;
        background-position: center;
-       border: 1px solid red;
-       
-    
-
+       background-size: cover;
     
 }
 .footer-container{
-    max-width: 1360px;
-
-    border: 1px solid red;
+    max-width: 560px;
     margin: 80px auto;
 }
 
@@ -306,17 +291,16 @@ nav{
 .footer-container>h2{
     font-weight: 700;
     font-size: 3rem;
-    /* margin-top: 50px; */
      display: flex;
     justify-content: center;
     
 }
 .footer-grid-box{
-    border: 1px solid red;
-   
     display: grid;
-    grid-template-columns: repeat(4, 150px);
-    justify-content: center;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    align-items: center;
+    
 }
 .footer-grid-box>div{
     display: flex;
@@ -406,21 +390,21 @@ nav{
     flex-direction: column;
    
 }
-.footer-container{
-    width: 100%;
+
+.footer{
+    width:100%;
 }
-.footer-container>h2{
-    text-align: center;
+
+.footer-container{
+    width: fit-content;
 }
 
 .footer-grid-box{
-    width: 67%;
-    margin: 0 auto;
-    grid-template-columns: repeat(2, 1fr);
-    justify-content: center;
-    gap: 20px;
+   
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(2,1fr);
 }
-    
 
 
     
